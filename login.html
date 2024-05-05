@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="page">
+        <div id="content" class="animate">
+            <h1>Login</h1>
+            <div id="login-form">
+                <form>
+                    <div class="center-text-container">
+                        <div class="text-container">
+                            <label for="username">Username</label><br>
+                            <input type="text" id="username" name="username">
+                        </div>
+                        <div class="text-container">
+                            <label for="password">Password</label><br>
+                            <input type="password" id="password" name="password">
+                            <button type="button" id="show-password">Show</button>
+                        </div>
+                    </div>
+                    <div id="center2">
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div id="mode-toggle">
+        <button id="toggle-button">Toggle Mode</button>
+        <span id="toggle-icon" class="moon"></span>
+    </div>
+</body>
+</html>
